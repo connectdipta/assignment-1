@@ -78,6 +78,7 @@ header {
 }
 .preview-text {
   max-width: 40%;
+  margin-left: 190px;
 }
 .section-title {
   font-size: 42px;
@@ -95,6 +96,7 @@ header {
   max-width: 100%;
   border-radius: 48px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  margin-right: 75px;
 }
 
 /* Status */
@@ -146,20 +148,18 @@ header {
   background-color: #f9f9fb;
   font-family: 'Segoe UI', sans-serif;
 }
-
 .testimonials h2 {
   font-size: 42px;
+  font-weight: bold;
   color: #252432;
   margin-bottom: 40px;
 }
-
 .testimonial-cards {
   display: flex;
   justify-content: center;
   gap: 20px;
-  flex-wrap: wrap; /* Allows responsive wrapping on smaller screens */
+  flex-wrap: wrap; 
 }
-
 .testimonial-card {
   width: 300px;
   padding: 25px;
@@ -169,51 +169,42 @@ header {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   display: flex;
   flex-direction: column;
-  align-items: center;
   text-align: left;
 }
-
 .rating {
   margin-bottom: 10px;
 }
-
 .star-icon {
   width: 20px;
   height: 20px;
   margin: 0 2px;
 }
-
 .testimonial-card h3 {
   font-size: 18px;
-  color: #333;
+  color: #000000;
   margin: 10px 0;
 }
-
 .testimonial-card p {
   font-size: 16px;
   color: #666;
   margin-bottom: 15px;
 }
-
 .reviewer-info {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-
 .reviewer-info img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   object-fit: cover;
 }
-
 .reviewer-name {
   font-size: 14px;
-  color: #333;
+  color: #0b0b0b;
   font-weight: 600;
 }
-
 .review-date {
   font-size: 14px;
   color: #888;
@@ -226,10 +217,11 @@ header {
   align-items: center; 
   justify-content: center; 
   padding: 80px 20px; 
-  background-color: #f8faff; 
+  background-color: #FFFFFF; 
   gap: 50px;
   width: 100%;
   box-sizing: border-box; 
+  margin: 137px 150px 192px 150px;
 }
 
 .promo-content { 
@@ -260,7 +252,7 @@ header {
   align-items: center;
   width: 100%; 
   max-width: 900px; 
-  border-radius: 20px; 
+  border-radius: 48px; 
   overflow: hidden; 
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15); 
   background-color: #333;
