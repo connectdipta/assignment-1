@@ -8,6 +8,7 @@ body {
 }
 
 /* Shared Style */
+
 .text-primary {
   color: #4E47FF;
 }
@@ -16,15 +17,15 @@ body {
   text-decoration: none;
   background-color: #4E47FF;
   font-size: 16px;
-  font-weight: bold;
+  font-weight:500;
   color: #FFFFFF;
   border-radius: 10px;
   border: none;
   padding: 12px 36px;
   cursor: pointer;
 }
-.cta-button:hover {
-  background-color: #b334d0;
+.btn-primary:hover {
+  background-color: #3dfc03;
   transform: translateY(-2px);
 }
 /* Nav Bar */
@@ -33,13 +34,15 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 40px 100px;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 nav h2{
   font-family: "Inter", sans-serif;
   color: #4E47FF; 
   font-size: 40px;
-  font-weight: 900; 
+  font-weight: 800; 
 }
 
 /* Header */
@@ -105,7 +108,6 @@ header {
   padding: 50px 20px;
   text-align: center;
   border-radius: 24px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
   max-width: 1148px;
   margin: 0 auto;
   margin-top: 120px;
@@ -145,7 +147,6 @@ header {
 .testimonials {
   text-align: center;
   padding: 50px 20px;
-  background-color: #f9f9fb;
   font-family: 'Segoe UI', sans-serif;
 }
 .testimonials h2 {
@@ -211,6 +212,13 @@ header {
 }
 
 /* Promo Banner */
+.dip{
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 120px;
+  margin-bottom: 92.23px;
+  border: 1px solid rgb(246, 242, 241);
+}
 .promo-banner {
   display: flex; 
   flex-direction: column;
@@ -221,7 +229,6 @@ header {
   gap: 50px;
   width: 100%;
   box-sizing: border-box; 
-  margin: 137px 150px 192px 150px;
 }
 
 .promo-content { 
@@ -240,10 +247,6 @@ header {
   font-size: 18px; 
   color: #555;
   margin-bottom: 30px;
-  max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 1.6;
 }
 
 .promo-image {
@@ -254,7 +257,6 @@ header {
   max-width: 900px; 
   border-radius: 48px; 
   overflow: hidden; 
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15); 
   background-color: #333;
 }
 
@@ -274,7 +276,6 @@ header {
   align-items: flex-start;
   gap: 40px;
   padding: 80px 60px;
-  background-color: #f6f4fc;
   font-family: 'Segoe UI', sans-serif;
   flex-wrap: wrap;
   margin-right: 320px;
@@ -321,7 +322,7 @@ header {
 .contact-form button {
   margin-top: 30px;
   padding: 14px 28px;
-  background-color: #5e4ddb;
+  background-color: #4E47FF;
   color: #fff;
   font-weight: 600;
   border: none;
@@ -331,7 +332,7 @@ header {
 }
 
 .contact-form button:hover {
-  background-color: #4432a6;
+  background-color: #0dff00;
 }
 
 /* Footer */
@@ -373,5 +374,5 @@ header {
 }
 
 .footer-nav a:hover {
-  color: #5e4ddb; 
+  color: #150498; 
 }
