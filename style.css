@@ -2,8 +2,9 @@
 body {
   font-family: "Raleway", sans-serif;
   font-style: normal;
-  margin: 0;
+  margin-left: 0;
   padding: 0;
+    background-color: #F5F8FF;
 }
 
 /* Shared Style */
@@ -22,7 +23,10 @@ body {
   padding: 12px 36px;
   cursor: pointer;
 }
-
+.cta-button:hover {
+  background-color: #b334d0;
+  transform: translateY(-2px);
+}
 /* Nav Bar */
 nav {
   display: flex;
@@ -43,14 +47,14 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  /* height: 100vh; */
-  max-height: 100vh;
+  height: 698px;
 }
 
 /* Hero Section */
 .hero-content {
   text-align: center;
   margin-top: 100px;
+  margin: 150px 267.5px 152px 267.5px;
 }
 
 .sub-title {
@@ -59,42 +63,317 @@ header {
   margin-bottom: 37px;
   color: #252432;
 }
-.hero-content{
-    margin: 309px 267.5px 152px 267.5px;
-}
+
 /* Preview */
 .preview-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 100px 150px;
-  background-color: #f9f9ff;
-  width: 1440px;
+  padding-top: 116px;
+  max-width: 1440px;
   margin: 0 auto;
-  gap: 60px;
+  margin-left: 159px;
+  margin-right: 159px;
 }
-
-/* Left Text */
 .preview-text {
   max-width: 40%;
 }
-
 .section-title {
-  font-size: 28px;
-  font-weight: 700;
+  font-size: 42px;
+  font-weight: bold;
   color: #1c1c1c;
   margin-bottom: 20px;
 }
-
 .section-desc {
   font-size: 16px;
   color: #6e6e6e;
   margin-bottom: 30px;
 }
 
-/* Right Image */
 .preview-image img {
   max-width: 100%;
-  border-radius: 20px;
+  border-radius: 48px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Status */
+.stats-banner {
+  background-color: #E5E7FF;
+  padding: 50px 20px;
+  text-align: center;
+  border-radius: 24px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  max-width: 1148px;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+.stats-banner h2 {
+  color: #252432;
+  font-size: 38px;
+  margin-bottom: 40px;
+  font-weight: bold; 
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+
+.stat-item h3 {
+   font-family: "Inter", sans-serif;
+  color: #4E47FF; 
+  font-size: 80px; 
+  margin: 0;
+  font-weight: bolder; 
+}
+
+.stat-item p {
+  color: #333;
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: 500; /* Adjust weight for better readability */
+}
+
+
+/* Testimonials */
+.testimonials {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f9f9fb;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.testimonials h2 {
+  font-size: 42px;
+  color: #252432;
+  margin-bottom: 40px;
+}
+
+.testimonial-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* Allows responsive wrapping on smaller screens */
+}
+
+.testimonial-card {
+  width: 300px;
+  padding: 25px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.rating {
+  margin-bottom: 10px;
+}
+
+.star-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 2px;
+}
+
+.testimonial-card h3 {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.testimonial-card p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.reviewer-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reviewer-name {
+  font-size: 14px;
+  color: #333;
+  font-weight: 600;
+}
+
+.review-date {
+  font-size: 14px;
+  color: #888;
+}
+
+/* Promo Banner */
+.promo-banner {
+  display: flex; 
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  padding: 80px 20px; 
+  background-color: #f8faff; 
+  gap: 50px;
+  width: 100%;
+  box-sizing: border-box; 
+}
+
+.promo-content { 
+  text-align: center; 
+  max-width: 600px;
+}
+
+.promo-content h1 { 
+  font-size: 44px; 
+  font-weight: 700; 
+  color: #333; 
+  margin-bottom: 20px;
+}
+
+.promo-content p { 
+  font-size: 18px; 
+  color: #555;
+  margin-bottom: 30px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.promo-image {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  width: 100%; 
+  max-width: 900px; 
+  border-radius: 20px; 
+  overflow: hidden; 
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15); 
+  background-color: #333;
+}
+
+.promo-image img {
+  width: 100%; 
+  height: auto; 
+  display: block; 
+  max-width: none;
+  border-radius: 0; 
+}
+
+/* Contact Section */
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 80px 60px;
+  background-color: #f6f4fc;
+  font-family: 'Segoe UI', sans-serif;
+  flex-wrap: wrap;
+}
+
+.contact-text h2 {
+  font-size: 42px;
+  color: #2b2b2b;
+  margin: 0;
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  color: #444;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 14px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: inherit;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.contact-form button {
+  margin-top: 30px;
+  padding: 14px 28px;
+  background-color: #5e4ddb;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #4432a6;
+}
+
+/* Footer */
+.site-footer {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center; 
+  background-color: #FFFFFF; 
+  padding: 100px 20px; 
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-logo h2 {
+  color: #4E47FF; 
+  font-size: 100px; 
+  font-weight: bold; 
+  margin-bottom: 20px; 
+}
+
+.footer-logo p {
+  color: #8987A1; 
+  font-size: 18px; 
+  line-height: 1.5;
+  max-width: 600px;
+  margin: 0 auto; 
+}
+
+.footer-nav {
+  display: flex; 
+  flex-direction: row; 
+  gap: 48px; 
+}
+
+.footer-nav a {
+  color: #8987A1; 
+  text-decoration: none;
+  font-size: 18px; 
+}
+
+.footer-nav a:hover {
+  color: #5e4ddb; 
 }
