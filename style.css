@@ -35,10 +35,11 @@ nav {
   padding: 40px 100px;
 }
 
-.logo{
+nav h2{
   font-family: "Inter", sans-serif;
+  color: #4E47FF; 
   font-size: 40px;
-  font-weight: bolder; 
+  font-weight: 900; 
 }
 
 /* Header */
@@ -274,6 +275,7 @@ header {
 }
 
 /* Contact Section */
+
 .contact-section {
   display: flex;
   justify-content: space-between;
@@ -283,12 +285,16 @@ header {
   background-color: #f6f4fc;
   font-family: 'Segoe UI', sans-serif;
   flex-wrap: wrap;
+  margin-right: 320px;
 }
-
 .contact-text h2 {
-  font-size: 42px;
-  color: #2b2b2b;
+  font-size: 90px;
+  font-weight: bold;
+  color: #000000;
   margin: 0;
+  margin-top: 100px;
+  margin-left: 320px;
+  margin-right: 25px;
 }
 
 .contact-form {
@@ -317,7 +323,7 @@ header {
 
 .contact-form textarea {
   resize: vertical;
-  min-height: 120px;
+  min-height: 110px;
 }
 
 .contact-form button {
